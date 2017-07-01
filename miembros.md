@@ -22,5 +22,8 @@
 20. Lady Shiva
 21. Giganta
 22. Deadshot
+<<<<<<< HEAD
 23. Scarecrow
 24. Tinieblas
+=======
+>>>>>>> 6050ad8... Borramos al espantapajaros
