@@ -1,0 +1,2 @@
+* Ni puta idea
+* LOL
