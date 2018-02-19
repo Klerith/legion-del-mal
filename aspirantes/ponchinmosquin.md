@@ -1,2 +1,0 @@
-#Solicitud:
-quiero aplicar ala legion del mal men
