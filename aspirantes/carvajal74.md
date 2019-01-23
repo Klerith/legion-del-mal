@@ -1,3 +1,3 @@
 # Solicitud:
 
-Quiero aplicar a la legión del bien 
+Quiero aplicar a la legion del bien
