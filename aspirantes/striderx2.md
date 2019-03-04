@@ -1,3 +1,3 @@
-# Solicitud:
+# Solicitud2:
 
-Quiero aplicar a la legion del mal.
+Quiero aplicar para la legion del mal .
