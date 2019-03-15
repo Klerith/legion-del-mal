@@ -14,6 +14,7 @@
 12. Doctor Light
 13. Gorilla Grodd
 14. Captain Boomerang
+15. Solomon Grundy
 16. Felix Faust
 17. Mr. Element
 18. The Penguin
