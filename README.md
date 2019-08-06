@@ -1,4 +1,5 @@
 # Legion del Mal
-Un repositorio para conquistar el mundo
+Ha sido forkeado este repositorio
 
-Básicamente aprenderemos más sobre Git y GitHub con este proyecto
+## PSD: No forkeen Deathstroke
+Manejar GitHub solo comprende saberse los comandos
