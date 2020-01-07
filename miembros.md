@@ -8,18 +8,17 @@
 6. Poison Ivy
 7. Chronos
 8. Catwoman
-9. Deathstroke
-10. Copperhead
-11. Ra's al Ghul
-12. Doctor Light
-13. Gorilla Grodd
-14. Captain Boomerang
-15. Solomon Grundy
-16. Felix Faust
-17. Mr. Element
-18. The Penguin
-19. Talia al Ghul
-20. Lady Shiva
-21. Giganta
-22. Deadshot
-23. Scarecrow
+9.  Copperhead
+10. Ra's al Ghul
+11. Doctor Light
+12. Gorilla Grodd
+13. Captain Boomerang
+14. Solomon Grundy
+15. Felix Faust
+16. Mr. Element
+17. The Penguin
+18. Talia al Ghul
+19. Lady Shiva
+20. Giganta
+21. Deadshot
+22. Scarecrow
