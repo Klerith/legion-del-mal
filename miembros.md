@@ -1,5 +1,5 @@
 # Miembros
-
+---------------
 1. Lex Luthor
 2. The Joker
 3. Raven
@@ -23,3 +23,4 @@
 21. Giganta
 22. Deadshot
 23. Scarecrow
+24. Nicky Furry
