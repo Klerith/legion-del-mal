@@ -24,3 +24,4 @@
 22. Deadshot
 23. Scarecrow
 24. Reverse Flash
+25. Scarecrow
