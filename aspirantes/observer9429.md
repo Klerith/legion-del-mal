@@ -1,0 +1,1 @@
+# Solicitud: Quiero aplicar al grupo.
