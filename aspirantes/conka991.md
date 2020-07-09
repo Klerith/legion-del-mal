@@ -1,3 +1,3 @@
-# Solicitd:
+# Solicitd
 
 Quiero aplicar a la legion del mal
