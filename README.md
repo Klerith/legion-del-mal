@@ -1,4 +1,5 @@
-# Legion del Mal  - Pruebas GitHub
-Un repositorio para conquistar el mundo
+# Test FH - Legion  - Pruebas GitHub
+
+Repositorio de prueba Curso Fernando Herrera
 
 Básicamente aprenderemos más sobre Git y GitHub con este proyecto
