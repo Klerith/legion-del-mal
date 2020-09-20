@@ -1,2 +1,2 @@
-#Solicitud:
-Quiero aplicar a la legión del mal.
+# Solicitud:
+Quiero aplicar a la legión del mal
