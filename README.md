@@ -1,4 +1,5 @@
-# Legion del Mal
-Un repositorio para conquistar el mundo
+# Avengers
 
-Básicamente aprenderemos más sobre Git y GitHub con este proyecto
+El cuartel general de los Avengers para aprender Git y GitHub
+
+Toda la información aquí utilizada sale de Wikipedia y Marvel.com
