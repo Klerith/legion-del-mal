@@ -1,4 +1,4 @@
-<mxfile modified="2021-02-03T14:09:56.439Z" host="app.diagrams.net" agent="5.0 (Windows)" etag="yOl3pE4Yo5femou8P_om" version="13.10.2" type="github">
+<mxfile modified="2021-02-03T16:59:53.292Z" host="app.diagrams.net" agent="5.0 (Windows)" etag="1MWjlb1NvE8qHv_IFYNj" version="13.10.2" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1422" dy="1590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -161,10 +161,10 @@
         <mxCell id="lW3eZDPAeLyrzUM5OH_k-113" value="&lt;div&gt;acc-gezinsplan.baloise.be&lt;/div&gt;&lt;div&gt;acc-planfamille.baloise.be&lt;br&gt;&lt;/div&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="770" y="710" width="50" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="lW3eZDPAeLyrzUM5OH_k-114" value="" style="rounded=1;arcSize=10;dashed=1;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;fontSize=16;fontColor=#EA6B66;strokeColor=#FFD966;" vertex="1" parent="1">
+        <mxCell id="lW3eZDPAeLyrzUM5OH_k-114" value="AZURE" style="rounded=1;arcSize=10;dashed=1;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;fontSize=16;fontColor=#EA6B66;strokeColor=#FFD966;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="600" width="150" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="lW3eZDPAeLyrzUM5OH_k-117" value="" style="rounded=1;arcSize=10;dashed=1;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;fontSize=16;fontColor=#EA6B66;strokeColor=#FFD966;" vertex="1" parent="1">
+        <mxCell id="lW3eZDPAeLyrzUM5OH_k-117" value="AZURE" style="rounded=1;arcSize=10;dashed=1;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;fontSize=16;fontColor=#EA6B66;strokeColor=#FFD966;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="600" y="340" width="150" height="340" as="geometry" />
         </mxCell>
       </root>
