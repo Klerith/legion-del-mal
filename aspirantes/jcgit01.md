@@ -1,2 +1,2 @@
 ## Solicitud
-Quiero aplicar mis cambios
+Quiero aplicar mis cambios total
