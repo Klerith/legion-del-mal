@@ -22,3 +22,6 @@
 20. Lady Shiva
 21. Giganta
 22. Deadshot
+23. Un nuevo malo
+34. Otra modificación
+
