@@ -22,5 +22,8 @@
 20. Lady Shiva
 21. Giganta
 22. Deadshot
-23. Trump
+24. Trump
+25. Un nuevo malo
+26. Otra modificación
+
 
