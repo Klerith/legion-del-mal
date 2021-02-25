@@ -1,1 +1,2 @@
-"#solicitud\nQuiero aplicar a la legion del mal" 
+# solicitud
+Quiero aplicar a la legion del mal
