@@ -7,7 +7,6 @@
 5. Sinestro
 6. Poison Ivy
 7. Chronos
-8. Catwoman
 9. Deathstroke
 10. Copperhead
 11. Ra's al Ghul
