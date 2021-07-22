@@ -1,4 +1,4 @@
 # La legión
-Un repositorio para practicar sonbre Git y GitHub
+Un repositorio para practicar comandos Git y entorno de GitHub.
 
-Básicamente aprenderemos más sobre Git y GitHub con este proyecto
+Básicamente es un proyecto que involucra el entorno de control de versiones con Git y GitHub.
