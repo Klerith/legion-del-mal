@@ -14,3 +14,8 @@ Básicamente aprenderemos más sobre Git y GitHub con este proyecto
 Vamos por mas
 
 
+## nota al pie
+
+Gracias por el curso
+
+
