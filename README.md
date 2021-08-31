@@ -8,3 +8,14 @@ Básicamente aprenderemos más sobre Git y GitHub con este proyecto
 
 
 ## Curso de Fernando en Udemy
+# consiguiendo lo mejor de este curso
+
+
+Vamos por mas
+
+
+## nota al pie
+
+Gracias por el curso
+
+
