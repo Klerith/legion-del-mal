@@ -23,4 +23,4 @@
 21. Giganta
 22. Deadshot
 23. Scarecrow
-24. Prueba
+24. Pruebas
