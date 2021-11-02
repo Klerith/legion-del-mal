@@ -9,3 +9,5 @@ Básicamente aprenderemos más sobre Git y GitHub con este proyecto
 - agrego para pull request
 
 ## Curso de Fernando en Udemy
+
+- agrego para pull request
