@@ -19,4 +19,3 @@
 17. Mr. Element
 18. The Penguin
 19. Talia al Ghul
-20. Lady Shiva
