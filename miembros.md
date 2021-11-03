@@ -20,4 +20,3 @@
 18. The Penguin
 19. Talia al Ghul
 20. Lady Shiva
-21. Giganta

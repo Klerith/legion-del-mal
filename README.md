@@ -10,3 +10,4 @@ Básicamente aprenderemos más sobre Git y GitHub con este proyecto
 1. Espantapájaros
 2. Deadshot
 3. Deadshot
+4. Giganta
