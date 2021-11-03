@@ -6,3 +6,6 @@ Básicamente aprenderemos más sobre Git y GitHub con este proyecto
 
 # Paxtian
 
+### GIT+GitHub: Todo un sistema de control de versiones de cero
+
+
