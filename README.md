@@ -4,7 +4,8 @@ Un repositorio para conquistar el mundo
 Básicamente aprenderemos más sobre Git y GitHub con este proyecto
 
 
-# Fernando
+# Paxtian
+
+### GIT+GitHub: Todo un sistema de control de versiones de cero
 
 
-## Curso de Fernando en Udemy
