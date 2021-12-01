@@ -3,8 +3,5 @@ Un repositorio para conquistar el mundo
 
 Básicamente aprenderemos más sobre Git y GitHub con este proyecto
 
-
-# Fernando
-
-
-## Curso de Fernando en Udemy
+## Metas
+Conquistar el mundo y destruir a la liga de la justicia.
