@@ -8,3 +8,6 @@ Un repositorio para conquistar el adsdadasasd
 
 
 ## Curso de Fernando en Udemy
+
+
+Israel Lozano
