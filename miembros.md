@@ -23,3 +23,6 @@
 21. Giganta
 22. Deadshot
 23. Scarecrow
+24. Spiderman
+25. Wonderwoman
+26. Batman
