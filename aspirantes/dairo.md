@@ -1,3 +1,3 @@
 # Notas
 
-Por favir acéptame en la Legión
+Por favor acéptame en la Legión
