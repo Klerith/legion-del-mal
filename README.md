@@ -7,4 +7,4 @@ Básicamente aprenderemos más sobre Git y GitHub con este proyecto
 # Fernando Sebastian
 
 
-# Copiamos clonamos el repositorio con éxito.
+# Hicimo un Fork y clonamos el repositorio con éxito de manera local.
