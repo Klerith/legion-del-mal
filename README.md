@@ -7,4 +7,4 @@ Básicamente aprenderemos más sobre Git y GitHub con este proyecto
 # Santiago
 
 
-## Curso de GitHub tomado por Santiago
+## Curso de Git-GitHub tomado por Santiago
