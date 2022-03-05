@@ -1,6 +1,4 @@
-# Legion del Mal
-Un repositorio para conquistar el mundo
+# Legion del Git
+Un repositorio para conquistar el Git
 
 Básicamente aprenderemos más sobre Git y GitHub con este proyecto
-
-# Pues hacemos push no?
