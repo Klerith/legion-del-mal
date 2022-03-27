@@ -23,3 +23,4 @@
 21. Giganta
 22. Deadshot
 23. Scarecrow
+24. Juan Luis de Jesus Martinez
