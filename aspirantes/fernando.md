@@ -1,3 +1,5 @@
 # Notas
 
-Por favor acéptame en la legion del mal
+Por favor acéptame soy joaquin c.
+
+# agrego algo que me olvidaba
