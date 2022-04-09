@@ -7,4 +7,9 @@
 
 ### Otros
 
+* Superman
+* Aquaman
+* Wonder Woman
+* Cibord
+* Linterna Verde
 
