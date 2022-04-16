@@ -4,7 +4,7 @@ Un repositorio para conquistar el mundo
 Básicamente aprenderemos más sobre Git y GitHub con este proyecto
 
 
-# Fernando
+#Nota
+Este curso es muy util e interesante.
 
-
-## Curso de Fernando en Udemy
+# Julio Ross
