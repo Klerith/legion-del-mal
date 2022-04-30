@@ -7,4 +7,4 @@ Básicamente aprenderemos más sobre Git y GitHub con este proyecto
 # Geovanny
 
 
-## Curso de Fernando en Udemy
+## Curso de Geovanny en Udemy
