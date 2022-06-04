@@ -1,7 +1,7 @@
 # Miembros
 
-1. Lex Luthor
-2. The Joker
+1. The Joker
+2. Lex Luthor
 3. Raven
 4. Black Manta
 5. Sinestro
@@ -22,4 +22,3 @@
 20. Lady Shiva
 21. Giganta
 22. Deadshot
-23. Scarecrow
