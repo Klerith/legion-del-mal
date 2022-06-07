@@ -1,1 +1,1 @@
-aceptame en la laegio  del mal, paro.
+Aceptame en la legión del mal, por favor.
