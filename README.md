@@ -4,7 +4,6 @@ Un repositorio para conquistar el mundo
 Básicamente aprenderemos más sobre Git y GitHub con este proyecto
 
 
-# Fernando
+# Bastian Matteo
 
 
-## Curso de Fernando en Udemy
