@@ -6,5 +6,5 @@ Básicamente aprenderemos más sobre Git y GitHub con este proyecto
 
 # Fernando
 
+# Milagros
 
-## Curso de Fernando en Udemy
