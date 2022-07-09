@@ -1,0 +1,3 @@
+# Notas
+
+Jose Maria Osorio
