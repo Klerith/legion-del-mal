@@ -1,3 +1,3 @@
 # Notas
 
-Por favor acéptame en la legion 
+Por favor acéptame en la legion  
