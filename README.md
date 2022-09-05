@@ -6,4 +6,4 @@ Básicamente aprenderemos más sobre Git y GitHub con este proyecto
 
 # Patricio
 
-Es la vida tal vez
+Es la vida siempre
