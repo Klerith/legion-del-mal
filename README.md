@@ -8,5 +8,3 @@ Básicamente aprenderemos más sobre Git y GitHub con este proyecto
 
 
 ## Curso de Fernando en Udemy
-
-Hola munfo  me voy de aqui
