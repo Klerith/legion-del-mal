@@ -5,3 +5,5 @@ Básicamente aprenderemos más sobre Git y GitHub con este proyecto
 
 
 # Jorge
+
+### Readme actualizado (pull upstream al repositorio original, no del fork)
