@@ -10,4 +10,5 @@ Básicamente aprenderemos más sobre Git y GitHub con este proyecto
 ## Curso de Fernando en Udemy
 
 # Trabajo de Isra
-Lo que mejorare
+Lo que mejorare, se me paso agregar esto
+soy lo max
