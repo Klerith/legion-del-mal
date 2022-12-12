@@ -5,6 +5,6 @@ Básicamente aprenderemos más sobre Git y GitHub con este proyecto
 
 
 # Fernando y Ken
-
+# Kensote
 
 ## Curso de Fernando en Udemy
