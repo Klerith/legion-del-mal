@@ -1,0 +1,37 @@
+[Unit]
+Description=MongoDB Database Server
+Documentation=https://docs.mongodb.org/manual
+After=network.target
+
+[Service]
+User={{'mongodb' if ansible_os_family == 'Debian' else 'mongod'}}
+Group={{'mongodb' if ansible_os_family == 'Debian' else 'mongod'}}
+PermissionsStartOnly=true
+EnvironmentFile=-/etc/default/mongod
+ExecStart=/usr/bin/mongod --config {{ archivo_configuracion_conf }}
+ExecStartPre=/usr/bin/mkdir -p /var/run/mongodb
+ExecStartPre=/usr/bin/chown {{'mongodb:mongodb' if ansible_os_family == 'Debian' else 'mongod:mongod'}} /var/run/mongodb
+ExecStartPre=/usr/bin/chmod 0755 /var/run/mongodb
+PIDFile=/var/run/mongodb/mongod.pid
+
+# file size
+LimitFSIZE=infinity
+# cpu time
+LimitCPU=infinity
+# virtual memory size
+LimitAS=infinity
+# open files
+LimitNOFILE=64000
+# processes/threads
+LimitNPROC=64000
+# locked memory
+LimitMEMLOCK=infinity
+# total threads (user+kernel)
+TasksMax=infinity
+TasksAccounting=false
+
+# Recommended limits for mongod as specified in
+# https://docs.mongodb.com/manual/reference/ulimit/#recommended-ulimit-settings
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,39 @@
+---
+
+# Importamos la key, para posteriormente añadir el repositorio.
+- name: Añadir la key para el repositorio
+  apt_key:
+    url: "https://www.mongodb.org/static/pgp/server-{{version_de_mongo}}.asc"
+    state: present
+
+#Añadimos el repositorio de mongo.
+- name: Instalamos el repositorio para mongodb {{ version_de_mongo }} 
+  apt_repository:
+    repo: deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/{{ansible_distribution|lower}} {{ansible_distribution_release|lower}}/mongodb-org/{{ version_de_mongo }} multiverse
+    state: present
+    filename: MongoDB-{{ version_de_mongo }}
+  when: ansible_distribution_release != "impish"
+
+- name: Instalamos el repositorio para mongodb {{ version_de_mongo }} 
+  apt_repository:
+    repo: deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/{{ansible_distribution|lower}} focal/mongodb-org/{{ version_de_mongo }} multiverse
+    state: present
+    filename: MongoDB-{{ version_de_mongo }}
+  when: ansible_distribution_release == "impish"
+
+#Realizamos un update para actualizar los paquetes.
+- name: Actualizamos los paquetes del sistema
+  apt:
+    update_cache: yes
+    force_apt_get: yes
+    cache_valid_time: 3600
+
+#Instalamos Mongodb
+- name: Intalamos MongoDB
+  apt:
+    name:
+      - mongodb-org
+    update_cache: yes
+    cache_valid_time: 3600
+    state: present
+

@@ -1,0 +1,9 @@
+---
+-
+  name: 'Iniciando el programa mongo .....'
+  hosts: all
+  become: True
+  tasks:
+   - name:
+     import_role:
+       name: mongo

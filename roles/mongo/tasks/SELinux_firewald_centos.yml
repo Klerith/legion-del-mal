@@ -1,0 +1,10 @@
+- name: Desabilitar SELinux para CentOS/Red hat
+  selinux:
+    state: disabled
+
+- name: habilitar el puerto {{ puerto_mongobd }} en el FirewallD de CentOS/Red hat
+  firewalld:
+    port: "{{ puerto_mongobd }}/tcp"
+    permanent: yes
+    state: enabled
+  notify: Reinicio de firewalld

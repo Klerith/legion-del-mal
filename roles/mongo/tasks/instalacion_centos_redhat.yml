@@ -1,0 +1,33 @@
+---
+
+#Añadimos la key, para posteriormente añadir el repositorio.
+- name: Importamos el paquete rpm necesario para inatalar MongoDB {{ version_de_mongo }} en CentOS/RedHat
+  rpm_key:
+    state: present
+    key: "https://www.mongodb.org/static/pgp/server-{{ version_de_mongo }}.asc"
+
+#Añadimos el repositorio de mongo
+- name: Añadimos el repositorio para MongoDB {{ version_de_mongo }}
+  yum_repository:
+    name: MongoDB-{{ version_de_mongo }}
+    description: "MongoDB Repo"
+    baseurl: "https://repo.mongodb.org/yum/redhat/$releasever/mongodb-org/{{ version_de_mongo }}/$basearch/"
+    gpgcheck: true
+    state: present
+
+#Instalamos Mongodb
+- name: Instalamos MongoDB {{ version_de_mongo }} en RedHat / CentOS
+  yum:
+    name:
+      - mongodb-org-{{ version_de_mongo }}.*
+      - mongodb-org-server-{{ version_de_mongo }}.*
+      - mongodb-org-shell-{{ version_de_mongo }}.*
+      - mongodb-org-mongos-{{ version_de_mongo }}.*
+      - mongodb-org-tools-{{ version_de_mongo }}.*
+    update_cache: yes
+    state: present
+
+
+
+
+#yum update mongodb-*

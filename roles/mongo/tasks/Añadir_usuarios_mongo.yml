@@ -1,0 +1,51 @@
+---
+- name: Ejecuta todos los handlers hasat ahora
+  meta: flush_handlers
+
+- name: Creando el usuario root ["{{ mongodb_root_account }}"]
+  mongodb_user:
+    database: admin
+    name: "{{ item.name }}"
+    password: "{{ item.password }}"
+    roles: "{{ item.roles }}"
+    state: present
+  with_items:
+    - {
+        name: "{{ cuenta_usuario_root }}",
+        password: "{{ password_usuario_root }}",
+        roles: "{{ rol_del_usuario_root }}" ,
+      }
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
+
+- name: Creando el usuario administrativo ["{{ mongodb_admin_account }}"] 
+  mongodb_user:
+    database: admin
+    name: "{{ item.name }}"
+    password: "{{ item.password }}"
+    roles: "{{ item.roles }}"
+    state: present
+  with_items:
+    - {
+        name: "{{ cuenta_usuario_administrativo }}",
+        password: "{{ password_usuario_administrativo }}",
+        roles: "{{ rol_del_usuario_administrativo }}",
+      }
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
+
+- name: Creando el usuario para backup  ["{{ mongodb_backup_account }}"]
+  mongodb_user:
+    database: admin
+    name: "{{ item.name }}"
+    password: "{{ item.password }}"
+    roles: "{{ item.roles }}"
+    state: present
+  with_items:
+    - {
+        name: "{{ cuenta_usuario_backup }}",
+        password: "{{ password_usuario_backup }}",
+        roles: "{{ rol_del_usuario_backup }}",
+      }
+  vars:
+    ansible_python_interpreter: /usr/bin/python3

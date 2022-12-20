@@ -1,0 +1,19 @@
+---
+
+- name: Reinicio de firewalld
+  systemd:
+    name: firewalld
+    state: restarted
+    enabled: true
+
+- name: Reinicio de systemd Mongo
+  systemd: 
+    daemon_reload: yes
+
+- name: Reiniciar mongodb 
+  systemd:
+    name: mongod
+    state: restarted
+    enabled: true
+
+

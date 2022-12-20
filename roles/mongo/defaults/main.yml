@@ -1,0 +1,31 @@
+---
+# Version de mongo
+version_de_mongo: 4.4
+
+# Version de pymongo a instalar (mirar compatibilidades con la version de mongo)
+version_pymongo: 4.1.1
+
+# MongoDB Configuration
+archivo_configuracion_conf: /etc/mongod.conf
+archivo_configuracion_db: /data/mongo-data/
+archivo_configuracion_logs: /var/log/mongodb/
+puerto_mongobd: 27017
+mongodb_journal: true
+mongodb_conf_bindIp: 127.0.0.1
+mongod_conf_engine: wiredTiger
+
+# Account configuration
+cuenta_usuario_root: root
+password_usuario_root: "bolson"
+rol_del_usuario_root: "userAdminAnyDatabase"
+
+cuenta_usuario_administrativo: dbadmin
+password_usuario_administrativo: "admin"
+rol_del_usuario_administrativo: "userAdminAnyDatabase"
+
+cuenta_usuario_backup: backupadmin
+password_usuario_backup: "admin"
+rol_del_usuario_backup: "backup,clusterMonitor"
+
+# # ruta del fichero de configuracion del demonio
+demonio_mongodb: /etc/systemd/system/mongod.service

@@ -1,0 +1,8 @@
+- name: Configura el demonio de MongoDB.
+  template:
+    src: Linux_mongod.service.j2
+    dest: "{{ demonio_mongodb }}"
+    owner: root
+    group: root
+    mode: "0644"
+  notify: Reinicio de systemd Mongo

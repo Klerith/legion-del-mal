@@ -1,0 +1,30 @@
+
+# {{ ansible_managed }}
+# for documentation of all options, see:
+#   http://docs.mongodb.org/manual/reference/configuration-options/
+
+# where to write logging data.
+systemLog:
+  destination: file
+  logAppend: true
+  path: {{ archivo_configuracion_logs }}mongod.log
+
+storage:
+  dbPath: {{ archivo_configuracion_db }}
+  journal:
+    enabled: {{ mongodb_journal|lower}}
+  engine: {{ mongod_conf_engine }}
+
+
+# how the process runs
+processManagement:
+  timeZoneInfo: /usr/share/zoneinfo
+
+
+# network interfaces
+net:
+  port: {{ puerto_mongobd }}
+  bindIp: {{ mongodb_conf_bindIp }}
+
+security:
+  authorization: disabled

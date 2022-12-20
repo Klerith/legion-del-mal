@@ -1,0 +1,27 @@
+---
+
+#Instala python dependiendo del sistema
+- name: Instalamos PYTHON en centos
+  yum:
+    name:
+      - epel-release
+      - python3
+      - python3-devel
+      - python3-pip
+
+    state: present
+  when: ansible_os_family == "RedHat"
+
+- name: Instalamos PYTHON en dubuntu
+  apt:
+    name: python3-pip
+  when: ansible_os_family == "Debian"
+
+#Instalamos pymongo, utilizando python, si no estan las varaibles declaradas se instalara la ultima versión
+- name: Instalamos PyMongo con python
+  pip: 
+    name: pymongo
+    state: "{{ version_pymongo is defined | ternary('present', 'latest') }}"
+    version: "{{ version_pymongo | default(omit) }}"
+    extra_args: --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host files.pythonhosted.org --upgrade pip
+    executable: pip3

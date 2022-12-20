@@ -1,0 +1,23 @@
+---
+#Instalación, configuración y creación de usuario de mongodb, tanto para CentOS/RedHat como 
+#para Ubuntu/Debian. Según su sistema Operativo filtramos la instalación. 
+- include: instalacion_centos_redhat.yml
+  when: ansible_os_family == "RedHat"
+
+- include: instalacion_ubuntu_debian.yml
+  when: ansible_os_family == "Debian"
+
+#Configuramos los ficheros de mongodb.
+- include: configurar_directorios_mongo.yml
+
+#En CentOS/RedHat, desabilitamos SELinux Y  habilitamos el puerto de mongo.
+- include: SELinux_firewald_centos.yml
+  when: ansible_os_family == "RedHat"
+
+#Configuramos el demonio de mongo para enrutar el fichero de configuracion inicial.
+- include: configuracion_systemd_mongo_units.yml
+
+#Configuramos los usuarios, para usar el modulo user de mongo.
+#necesitamos  instalar la dependencia (pymongo).
+- include: configurar_python_pymongo.yml
+- include: Añadir_usuarios_mongo.yml

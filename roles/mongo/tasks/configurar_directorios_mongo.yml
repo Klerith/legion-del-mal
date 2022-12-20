@@ -1,0 +1,61 @@
+---
+- name: Comprueba con el  modulo stat si exixte el directorio {{ archivo_configuracion_conf | dirname }}
+  stat:
+    path: "{{archivo_configuracion_conf | dirname}}"
+  register: stat_conf_directory
+
+- name: Si no existe, crea el directorio {{ archivo_configuracion_conf | dirname }}
+  file:
+    state: directory
+    path: "{{archivo_configuracion_conf | dirname}}"
+    owner: root
+    group: root
+    mode: "755"
+  when: not stat_conf_directory.stat.exists
+
+- name: Crea el fichero {{archivo_configuracion_conf}} para añadirlo al directorio.
+  template:
+    src: mongod_conf.j2
+    dest: "{{ archivo_configuracion_conf }}"
+    owner: root
+    group: root
+    mode: "0644"
+  changed_when: true
+  notify: Reiniciar mongodb 
+
+
+- name: Comprueba si existe {{archivo_configuracion_db}}
+  stat:
+    path: "{{archivo_configuracion_db | dirname}}"
+  register: stat_db_directory
+  when: archivo_configuracion_db  != "/var/lib/mongo"
+
+- name: Si no existe, crea el directorio {{ archivo_configuracion_db }}
+  file:
+    path: "{{archivo_configuracion_db | dirname}}"
+    state: directory
+    recurse: yes
+    mode: "755"
+    owner: "{{ 'mongodb' if ansible_os_family == 'Debian' else 'mongod' }}"
+    group: "{{ 'mongodb' if ansible_os_family == 'Debian' else 'mongod' }}"
+  when:
+    - archivo_configuracion_db  != "/var/lib/mongo"
+    - not stat_db_directory.stat.exists
+
+- name:  Comprueba si existe {{ archivo_configuracion_logs }}
+  stat:
+    path: "{{ archivo_configuracion_logs | dirname }}"
+  register: stat_log_directory
+  when: archivo_configuracion_logs  != "/var/log/mongodb"
+
+- name: Si no existe, crea el directorio {{archivo_configuracion_logs}}
+  file:
+    path: "{{archivo_configuracion_logs | dirname}}"
+    state: directory
+    recurse: yes
+    mode: "755"
+    owner: "{{'mongodb' if ansible_os_family == 'Debian' else 'mongod'}}"
+    group: "{{'mongodb' if ansible_os_family == 'Debian' else 'mongod'}}"
+  when:
+    - archivo_configuracion_logs  != "/var/log/mongodb"
+    - not stat_log_directory.stat.exists
