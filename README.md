@@ -8,3 +8,4 @@ Básicamente aprenderemos más sobre Git y GitHub con este proyecto
 
 
 ## Curso de Fernando en Udemy
+Actualizando el README.md por estar aprendiendo del curso de Git con Fernando Herrera.
