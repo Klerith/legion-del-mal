@@ -9,4 +9,6 @@ Básicamente aprenderemos más sobre Git y GitHub con este proyecto
 
 ## Curso de Fernando en Udemy
 
-esto es parte del
+esto es parte del 
+
+Soy alex Local
