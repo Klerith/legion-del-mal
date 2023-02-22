@@ -4,7 +4,5 @@ Un repositorio para conquistar el mundo
 Básicamente aprenderemos más sobre Git y GitHub con este proyecto
 
 
-# Fernando
-
-
-## Curso de Fernando en Udemy
+# Notas de repositorio fork - Miguel G.
+Comentario olvidado acerca de mi colaboración.
