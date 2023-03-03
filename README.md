@@ -7,3 +7,7 @@ Básicamente aprenderemos más sobre Git y GitHub con este proyecto
 # Fernando
 
 
+
+## Datos personales
+```
+Nombre: Fernando
