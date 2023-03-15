@@ -1,3 +1,3 @@
-# Notas
+# Nota nueva
 
-Por favor acéptame en la legion del mal
+PD: Acéptame en la legion del mal
