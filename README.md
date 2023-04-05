@@ -6,7 +6,7 @@ Básicamente aprenderemos más sobre Git y GitHub con este proyecto
 Vamos a practicar
 
 
-# Fernando
+# JL
 
 
 ## Curso de Fernando en Udemy
