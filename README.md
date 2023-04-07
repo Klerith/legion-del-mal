@@ -8,3 +8,5 @@ Básicamente aprenderemos más sobre Git y GitHub con este proyecto
 
 
 ## Curso de Fernando en Udemy
+
+## Carlos Mendoza: Estoy toamndo el curso de Git y GitHub  
