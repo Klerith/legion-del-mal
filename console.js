@@ -14,3 +14,13 @@ console.log("hola")
 console.log("hola")
 console.log("hola")
 console.log("hola")
+
+
+fuction main() {
+  
+ return null;
+  
+  
+}main()
+
+//console.log(main)
