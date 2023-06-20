@@ -11,4 +11,4 @@
 9. Deathstroke
 10. Copperhead
 
-# Solo 10 personajes pueden entrar a la lista.
+# Solo se admiten 10 miembros, los demas deben ser eliminados.
