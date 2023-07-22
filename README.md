@@ -1,6 +1,6 @@
-# Legion del Mal
-Un repositorio para conquistar el mundo
+# Aprendiendo
+Un repositorio para aprender 
 
 Básicamente aprenderemos más sobre Git y GitHub con este proyecto
 
-# Fernando
+# :)
