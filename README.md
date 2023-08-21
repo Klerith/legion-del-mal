@@ -1,10 +1,4 @@
 # Legion del Mal
 Un repositorio para conquistar el mundo
 
-Básicamente aprenderemos más sobre Git y GitHub con este proyecto
-
-
-# Fernando
-
-
-## Curso de Fernando en Udemy
+Éste repositorio con el fin de aprender sobre el Fork en GitHub.
