@@ -6,6 +6,6 @@ Básicamente aprenderemos más sobre Git y GitHub con este proyecto
 
 # Fernando
 
-ok fernando 
+ok fernando . me qeuivoque con los cambbios
 
 
