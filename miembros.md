@@ -1,7 +1,7 @@
 # Miembros
 
 1. Lex Luthor
-2. The Joker
+2. The Jo
 3. R
 4. Black Manta
 5. Sinestro
