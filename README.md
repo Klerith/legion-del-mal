@@ -7,4 +7,6 @@ Básicamente aprenderemos más sobre Git y GitHub con este proyecto
 # Fernando
 
 
-## Curso de Fernando en Udemy
+## Curso Git & GiHub profe Fernando
+
+Cursado Actualemente por Fabian - 2023 - 
