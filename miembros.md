@@ -22,4 +22,5 @@
 20. Lady Shiva
 21. Giganta
 22. Deadshot
+Borrado espata pájaros
 
