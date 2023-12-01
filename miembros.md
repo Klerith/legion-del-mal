@@ -23,3 +23,7 @@
 21. Giganta
 22. Deadshot
 23. Scarecrow
+24. Morgana
+25. Karma
+26. Jinx
+27. Olaf
