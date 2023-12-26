@@ -2,3 +2,7 @@
 Un repositorio para conquistar el mundo
 
 Básicamente aprenderemos más sobre GIT y GitHub con este proyecto
+
+
+# Gene
+
