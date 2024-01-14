@@ -23,3 +23,10 @@
 21. Giganta
 22. Deadshot
 23. Scarecrow
+24. Superman
+25. Batman
+26. Aquaman
+27. Flash
+28. Linterna Verte
+29. Cyborg
+30. Wonderwoman
