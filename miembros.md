@@ -23,4 +23,4 @@
 21. Giganta
 22. Deadshot
 23. el pinguino
-
+24. no se
