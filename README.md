@@ -11,4 +11,7 @@ dddddddddddddddd aaaa
 ## Descripcion del curso
 
 
-esta es una descripcion
+esta es una descripcions
+
+## que vamos aprender 
+vamos aprender a ser mejores en la vida 
