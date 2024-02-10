@@ -3,8 +3,18 @@ Un repositorio para conquistar el mundo
 
 Básicamente aprenderemos más sobre Git y GitHub con este proyecto
 
+# Curso de git hub en udemy 
 
-# Fernando
+loremasdfddddddddddd asaaa aaaaaaa
+dddddddddddddddd aaaa
+
+## Descripcion del curso
 
 
-## Curso de Fernando en Udemy
+esta es una descripcions
+
+## que vamos aprender 
+vamos aprender a ser mejores en la vida 
+
+### a quien le interesa el curso
+ a mi nada mas
