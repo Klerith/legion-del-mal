@@ -7,3 +7,8 @@ Básicamente aprenderemos más sobre Git y GitHub con este proyecto
 
 loremasdfddddddddddd asaaa aaaaaaa
 dddddddddddddddd aaaa
+
+## Descripcion del curso
+
+
+esta es una descripcion
