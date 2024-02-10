@@ -15,3 +15,6 @@ esta es una descripcions
 
 ## que vamos aprender 
 vamos aprender a ser mejores en la vida 
+
+### a quien le interesa el curso
+ a mi nada mas
