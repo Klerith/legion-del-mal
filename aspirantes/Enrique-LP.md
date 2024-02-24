@@ -1,3 +1,3 @@
 # Solicitud:
 
-Quiero aplicar a la legion del mal
+Por favor aceptame en la legión del mal
