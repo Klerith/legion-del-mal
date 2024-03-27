@@ -1,3 +1,3 @@
 #NEW NOTES
 
-accpet my request to join at the devil's league 
+accept my request to join me at the evil's league 
