@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #BFBFBF;
+}
+.my-name{
+    text-align: center;
+    padding: 20px;
+    background-color: blue;
+    margin: 10px;
+}
+
+#list{
+    text-align: center;
+    background-color: #161515;
+    padding: 15px;
+    border: solid red 2px;
+    border-radius: 15px;
+    margin: 10px;
+}
+.container{
+    width: 80%;
+    height: 100vh;
+    background-color: #161515;
+    color: aliceblue;
+    font-size: 25px;
+    margin: 0 auto;
+}
+p{
+    text-align: justify;
+    margin: 25px;
+}
+
+footer{
+    height: 200px;
+    width: 80%;
+    background-color: rgb(3, 3, 0);
+    margin: 0 auto;
+    padding-top: 20px;
+    color: aliceblue;
+    font-size: 25px;
+}
