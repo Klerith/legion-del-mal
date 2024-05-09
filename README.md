@@ -5,6 +5,5 @@ Básicamente aprenderemos más sobre Git y GitHub con este proyecto
 
 
 # Fernando
+es el creador del proyecto
 
-
-## Curso de Fernando en Udemy
