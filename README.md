@@ -4,7 +4,8 @@ Un repositorio para conquistar el mundo
 Básicamente aprenderemos más sobre Git y GitHub con este proyecto
 
 
-# Fernando
+# Dirgni
 
+## Practicando Git y Github con Fernando Herrera
 
-## Curso de Fernando en Udemy
+Definitivamente Git es lo mejor
