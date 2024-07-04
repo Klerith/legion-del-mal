@@ -1,10 +1,4 @@
-# Legion del Mal
-Un repositorio para conquistar el mundo
+# Evil Legion
+### A repository to conquer the world
 
-Básicamente aprenderemos más sobre Git y GitHub con este proyecto
-
-
-# Fernando
-
-
-## Curso de Fernando en Udemy
+#### Basically we will learn more about Git and GitHub with this project
