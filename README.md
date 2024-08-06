@@ -5,6 +5,6 @@ Básicamente aprenderemos más sobre Git y GitHub con este proyecto
 
 
 # Fernando
+# Probando git
 
-
-## Curso de Fernando en Udemy
+# Probando algo mas de si nos equivocamos y aumentamos
