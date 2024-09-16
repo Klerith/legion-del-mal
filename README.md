@@ -6,5 +6,9 @@ Básicamente aprenderemos más sobre Git y GitHub con este proyecto
 
 # Fernando
 
-
-## Curso de Fernando en Udemy
+## Eliminaciones 
+1. Espantapájaros
+2. Deadshot
+3. Deadshot
+4. Giganta
+5. Lady Shiva
