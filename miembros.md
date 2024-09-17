@@ -18,8 +18,3 @@
 16. Felix Faust
 17. Mr. Element
 18. The Penguin
-19. Talia al Ghul
-20. Lady Shiva
-21. Giganta
-22. Deadshot
-23. Scarecrow
