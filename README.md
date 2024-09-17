@@ -3,8 +3,7 @@ Un repositorio para conquistar el mundo
 
 Básicamente aprenderemos más sobre Git y GitHub con este proyecto
 
+# Julio Gonzalez Original 
 
-# Fernando
 
-
-## Curso de Fernando en Udemy
+##Viendo cosas nuevas
