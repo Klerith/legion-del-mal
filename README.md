@@ -4,7 +4,6 @@ Un repositorio para conquistar el mundo
 Básicamente aprenderemos más sobre Git y GitHub con este proyecto
 
 
-# Fernando
+# Jorge
 
-
-## Curso de Fernando en Udemy
+### Readme actualizado (pull upstream al repositorio original, no del fork)
