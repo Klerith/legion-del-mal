@@ -23,3 +23,7 @@
 21. Giganta
 22. Deadshot
 23. Scarecrow
+<<<<<<< HEAD
+24. Tinieblas
+=======
+>>>>>>> refs/remotes/origin/master
