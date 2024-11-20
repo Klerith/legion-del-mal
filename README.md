@@ -7,4 +7,4 @@ Básicamente aprenderemos más sobre Git y GitHub con este proyecto
 # Fernando
 
 
-## Curso de Fernando en Udemy
+### Estoy en el curso avanzado de Git y GitHub 
