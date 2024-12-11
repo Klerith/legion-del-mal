@@ -1,3 +1,3 @@
-# Notas
+# notas
 
-Por favor acéptame en la legion del mal
+por favor aceptame en la legion del mal
