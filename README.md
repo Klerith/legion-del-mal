@@ -8,3 +8,14 @@ Básicamente aprenderemos más sobre Git y GitHub con este proyecto
 
 
 ## Curso de Fernando en Udemy
+
+
+este es un cambio realizado desde local 
+
+
+
+este es otro cambio para probar 
+
+
+
+este es otro cambio digamos que el cambio 3 
