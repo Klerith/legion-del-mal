@@ -13,13 +13,12 @@
 11. Ra's al Ghul
 12. Doctor Light
 13. Gorilla Grodd
-14. Captain Boomerang
+14. Captain Boomerangs
 15. Solomon Grundy
 16. Felix Faust
 17. Mr. Element
 18. The Penguin
 19. Talia al Ghul
-20. Lady Shiva
-21. Giganta
-22. Deadshot
-23. Scarecrow
+20. Giganta
+21. Deadshot
+22. Scarecrow
