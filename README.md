@@ -1,10 +1,8 @@
 # Legion del Mal
-Un repositorio para conquistar el mundo
+Un repositorio para conquistar el mundo.
 
-Básicamente aprenderemos más sobre Git y GitHub con este proyecto
+Básicamente aprenderemos más sobre Git y GitHub con este proyecto.
 
+# Julio Cesar
 
-# Fernando
-
-
-## Curso de Fernando en Udemy
+## Curso de Github en la plataforma Udemy.
