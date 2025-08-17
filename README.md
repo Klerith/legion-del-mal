@@ -4,7 +4,6 @@ Un repositorio para conquistar el mundo
 Básicamente aprenderemos más sobre Git y GitHub con este proyecto
 
 
-# Fernando
+# Diego
 
-
-## Curso de Fernando en Udemy
+> This is a fork of fernando's legion-del-mal repository. 
