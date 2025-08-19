@@ -4,7 +4,5 @@ Un repositorio para conquistar el mundo
 Básicamente aprenderemos más sobre Git y GitHub con este proyecto
 
 
-# Fernando
-
-
-## Curso de Fernando en Udemy
+# Este cambio fue realizado desde el clon local.
+# Nada está mal.
