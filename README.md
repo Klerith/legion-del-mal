@@ -8,3 +8,7 @@ Básicamente aprenderemos más sobre Git y GitHub con este proyecto
 
 
 ## Curso de Fernando en Udemy
+
+## Ya tengo mis cambios en mi cuenta de fhermq
+
+# Fernando 123
