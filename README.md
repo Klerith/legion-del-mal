@@ -3,8 +3,7 @@ Un repositorio para conquistar el mundo
 
 Básicamente aprenderemos más sobre Git y GitHub con este proyecto
 
+***
 
-# Fernando
-
-
-## Curso de Fernando en Udemy
+## Contribución
+Mi nombre es Eduardo y esta es mi contribución al proyecto
