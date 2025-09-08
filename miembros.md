@@ -23,3 +23,11 @@
 21. Giganta
 22. Deadshot
 23. Scarecrow
+
+# cosas que agregue yo para que se haga el pull request
+
+- cosas que hago en mi dia
+- otras cosas que hago en mi dia
+- esta potente la flojera
+- tengo que terminar el front de mi appa
+- si soluciono eso ya tengo idea de como funciona en los demas
