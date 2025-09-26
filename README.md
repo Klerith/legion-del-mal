@@ -7,4 +7,7 @@ Básicamente aprenderemos más sobre Git y GitHub con este proyecto
 # Fernando
 
 
-## Curso de Fernando en Udemy
+## repositorio que se le hizo fork desde github
+
+# Carlos Amaro C.
+agregamos este dato nuevamente para un commit
