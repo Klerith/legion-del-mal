@@ -1,10 +1,10 @@
 # Legion del Mal
 Un repositorio para conquistar el mundo
 
-Básicamente aprenderemos más sobre Git y GitHub con este proyecto
+Sigo reaprendiendo para aprovechar al máximo las herramientas que nos ofrece Git Git-Hub.
 
 
-# Fernando
+# Jorge Joya
 
 
-## Curso de Fernando en Udemy
+## Reforzando los conocimientos de Git y Git-Hub.
