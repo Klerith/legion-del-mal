@@ -1,3 +1,3 @@
 # Notas
 
-Por favor acéptame en la legion del mal
+Y bueno, el que promete siempre se olvida de su promesa y el que se iluciona deja de confiar
