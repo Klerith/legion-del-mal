@@ -1,0 +1,1 @@
+Agregar a este personaje
