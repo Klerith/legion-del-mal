@@ -21,4 +21,4 @@
 19. Talia al Ghul
 20. Lady Shiva
 21. Giganta
-22. Deadshothttps://github.com/UPC-Skylar/legion-del-mal.git
+22. Deadshot
