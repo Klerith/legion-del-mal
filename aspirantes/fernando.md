@@ -1,3 +1,3 @@
 # Notas
 
-Por favor acéptame en la legion del mal
+Por favor aceptar a Fabrizio en la legión del mal
