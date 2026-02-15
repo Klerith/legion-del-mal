@@ -1,10 +1,15 @@
-# Legion del Mal
-Un repositorio para conquistar el mundo
+# Curso: Git y GitHub (Legión del Mal)
 
-Básicamente aprenderemos más sobre Git y GitHub con este proyecto
+Repositorio creado como parte de un **curso de Git y GitHub**, enfocado en la práctica de escenarios comunes como conflictos, manejo de ramas y control de versiones.
 
+## 🎯 Objetivo
+- Practicar flujos de trabajo con Git
+- Resolver conflictos de código
+- Comprender el uso de ramas y merges
 
-# Fernando
+## 🛠️ Tecnologías
+- Git
+- GitHub
 
-
-## Curso de Fernando en Udemy
+## 📌 Estado
+Curso finalizado / en progreso
