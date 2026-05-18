@@ -4,7 +4,6 @@ Un repositorio para conquistar el mundo
 Básicamente aprenderemos más sobre Git y GitHub con este proyecto
 
 
-# Fernando
+# saulo camarillo 
 
 
-## Curso de Fernando en Udemy
