@@ -8,3 +8,6 @@ Básicamente aprenderemos más sobre Git y GitHub con este proyecto
 
 
 ## Curso de Fernando en Udemy
+se hizo un fork y luego un git clone
+
+# Monica
