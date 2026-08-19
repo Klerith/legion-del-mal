@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Panel educativo y absolutamente secreto de la Legión del Mal."
+    />
+    <title>Legión del Mal | Panel de conquista</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="Ir al inicio">
+        <span class="brand__mark" aria-hidden="true">L/M</span>
+        <span>Legión del Mal</span>
+      </a>
+
+      <nav aria-label="Navegación principal">
+        <a href="#consejo">Consejo</a>
+        <a href="#planes">Planes</a>
+        <a href="#reglas">Reglas</a>
+      </nav>
+
+      <div class="system-status">
+        <span class="status-dot" aria-hidden="true"></span>
+        Sistema malvado en línea
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero__content">
+          <p class="eyebrow">Documento ultra secreto · OBM-001</p>
+          <h1>Conquistar el mundo.<br /><em>Un commit a la vez.</em></h1>
+          <p class="hero__copy">
+            Mientras los héroes discuten quién lleva la capa más bonita, nosotros
+            organizamos villanos, guaridas y planes en un repositorio. Porque el
+            verdadero superpoder es no romper <code>main</code>.
+          </p>
+          <div class="hero__actions">
+            <a class="button button--primary" href="#planes">Ver planes malvados</a>
+            <button class="button button--secondary" id="alarmButton" type="button">
+              Probar alarma
+            </button>
+          </div>
+        </div>
+
+        <aside class="threat-card" aria-label="Estado de conquista mundial">
+          <div class="threat-card__header">
+            <span>PROGRESO GLOBAL</span>
+            <span id="progressValue">37%</span>
+          </div>
+          <div class="world-orbit" aria-hidden="true">
+            <div class="orbit orbit--outer"></div>
+            <div class="orbit orbit--inner"></div>
+            <svg class="planet" viewBox="0 0 180 180" role="presentation">
+              <circle class="planet__ocean" cx="90" cy="90" r="76" />
+              <path
+                class="planet__land"
+                d="M36 59 50 43l19-8 12 8 14-4 9 9-5 12-16 4-6 12-14 1-7-8-15 1Zm72 17 18-8 19 8 8 17-10 11-6 22-15 15-11-8 3-18-9-13-10-7 5-14Z"
+              />
+              <path class="planet__shine" d="M49 42a65 65 0 0 0-21 54" />
+            </svg>
+            <div class="satellite">
+              <svg viewBox="0 0 84 48" role="presentation">
+                <path class="satellite__panel" d="M3 11h25v26H3zM56 11h25v26H56z" />
+                <path class="satellite__grid" d="M11 11v26m9-26v26m44-26v26m9-26v26" />
+                <path class="satellite__body" d="m33 10 18 4v20l-18 4-7-14Z" />
+                <circle class="satellite__lens" cx="43" cy="24" r="5" />
+              </svg>
+            </div>
+          </div>
+          <div class="progress-track" aria-hidden="true">
+            <span id="progressBar"></span>
+          </div>
+          <p id="statusMessage">Fase actual: conseguir presupuesto sin emitir factura.</p>
+        </aside>
+      </section>
+
+      <section class="ticker" aria-label="Avisos de seguridad">
+        <div>
+          <span>⚠ BATMAN FUE VISTO CERCA DEL SERVIDOR</span>
+          <span>NO SUBIR CÓDIGOS DE LANZAMIENTO</span>
+          <span>JOKER: PROHIBIDO HACER MONÓLOGOS</span>
+          <span>⚠ BATMAN FUE VISTO CERCA DEL SERVIDOR</span>
+        </div>
+      </section>
+
+      <section class="section" id="consejo">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Directorio corporativo (pero malvado)</p>
+            <h2>El Consejo</h2>
+          </div>
+          <p>Cuatro mentes brillantes. Cero reuniones que pudieron ser un correo.</p>
+        </div>
+
+        <div class="villain-grid">
+          <article class="villain-card villain-card--lex">
+            <span class="villain-card__number">01</span>
+            <div class="villain-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 120 120" role="presentation">
+                <path class="portrait-fill" d="M37 99 42 77l10-8v-8c-8-5-12-15-12-27C40 18 48 8 60 8s20 10 20 26c0 12-4 22-12 27v8l10 8 5 22Z" />
+                <path class="portrait-ink" d="m42 77 18 13 18-13-10-8H52Zm2-31c4 9 10 14 16 14s12-5 16-14c-6 3-26 3-32 0Z" />
+                <path class="portrait-line" d="M50 32h7m6 0h7M60 63v26m-7-18 7 18 7-18" />
+              </svg>
+            </div>
+            <p class="villain-card__universe">DC · Líder supremo</p>
+            <h3>Lex Luthor</h3>
+            <p>Financia el caos, aprueba los planes y culpa a Superman de los conflictos.</p>
+            <span class="tag">14 misiones completadas</span>
+          </article>
+
+          <article class="villain-card villain-card--magneto">
+            <span class="villain-card__number">02</span>
+            <div class="villain-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 120 120" role="presentation">
+                <path class="portrait-fill" d="M31 101 38 76l12-8V57c-7-6-11-16-11-29L50 11l10 9 10-9 11 17c0 13-4 23-11 29v11l12 8 7 25Z" />
+                <path class="portrait-ink" d="m39 28 12 7 9-15 9 15 12-7-4 22-9-8H52l-9 8Zm6 51 15 11 15-11 7 22H38Z" />
+                <path class="portrait-line" d="M51 47h7m4 0h7M54 58c4 3 8 3 12 0M60 69v20" />
+              </svg>
+            </div>
+            <p class="villain-card__universe">Marvel · Segundo al mando</p>
+            <h3>Magneto</h3>
+            <p>Controla todo metal, excepto los cubiertos de plástico de la cafetería.</p>
+            <span class="tag">11 misiones completadas</span>
+          </article>
+
+          <article class="villain-card villain-card--mystique">
+            <span class="villain-card__number">03</span>
+            <div class="villain-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 120 120" role="presentation">
+                <path class="portrait-fill" d="M35 101 41 76l11-7v-9c-8-5-12-16-12-30C40 16 48 8 60 8s20 8 20 22c0 14-4 25-12 30v9l11 7 6 25Z" />
+                <path class="portrait-ink" d="M60 8c12 0 20 8 20 22 0 14-4 25-12 30v9l11 7 6 25H60Zm-9 25 8 4-8 4-7-4Zm19 0 7 4-7 4-8-4Z" />
+                <path class="portrait-line" d="M60 8v81M51 53c6 5 12 5 18 0M45 78l15 11 15-11" />
+              </svg>
+            </div>
+            <p class="villain-card__universe">Marvel · Infiltración</p>
+            <h3>Mystique</h3>
+            <p>Puede ser cualquiera. Por seguridad, revisa dos veces quién aprueba tu PR.</p>
+            <span class="tag">22 misiones completadas</span>
+          </article>
+
+          <article class="villain-card villain-card--brainiac">
+            <span class="villain-card__number">04</span>
+            <div class="villain-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 120 120" role="presentation">
+                <path class="portrait-fill" d="M34 101 40 76l12-8v-8c-8-6-12-16-12-30C40 16 48 8 60 8s20 8 20 22c0 14-4 24-12 30v8l12 8 6 25Z" />
+                <path class="portrait-ink" d="M47 30h11v9H47zm15 0h11v9H62zM52 51h16l-8 9ZM39 79l21 11 21-11 5 22H34Z" />
+                <path class="portrait-line" d="M48 11v10m12-13v13m12-10v10M45 68h30M60 60v30M43 83h-8m42 0h8" />
+                <circle class="portrait-node" cx="48" cy="11" r="2.5" />
+                <circle class="portrait-node" cx="60" cy="8" r="2.5" />
+                <circle class="portrait-node" cx="72" cy="11" r="2.5" />
+              </svg>
+            </div>
+            <p class="villain-card__universe">DC · Tecnología</p>
+            <h3>Brainiac</h3>
+            <p>IA nivel 12. Todavía no comprende los chistes de Joker ni YAML mal indentado.</p>
+            <span class="tag">17 misiones completadas</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section plans-section" id="planes">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Tablero de operaciones</p>
+            <h2>Planes en curso</h2>
+          </div>
+          <div class="filters" aria-label="Filtrar planes">
+            <button class="filter is-active" data-filter="all" type="button">Todos</button>
+            <button class="filter" data-filter="active" type="button">Activo</button>
+            <button class="filter" data-filter="planning" type="button">Planificación</button>
+          </div>
+        </div>
+
+        <div class="mission-list">
+          <article class="mission" data-status="active">
+            <div class="mission__code">OBM<br />001</div>
+            <div class="mission__body">
+              <div class="mission__meta">
+                <span class="status status--active">Activa</span>
+                <span>Prioridad crítica</span>
+              </div>
+              <h3>Operación Banco Mundial</h3>
+              <p>
+                Financiar la conquista transfiriendo $750 millones. El plan es
+                impecable, salvo por Batman, Iron Man, Spider-Man y la auditoría.
+              </p>
+            </div>
+            <span class="mission__lead">Líder<br /><strong>Lex Luthor</strong></span>
+          </article>
+
+          <article class="mission" data-status="planning">
+            <div class="mission__code">PSC<br />002</div>
+            <div class="mission__body">
+              <div class="mission__meta">
+                <span class="status status--planning">Planificación</span>
+                <span>Presupuesto: $700M + magia</span>
+              </div>
+              <h3>Satélite Congelador</h3>
+              <p>
+                Congelar capitales desde el espacio. Recursos pendientes:
+                kryptonita, tres señuelos y alguien que sepa configurar el clima.
+              </p>
+            </div>
+            <span class="mission__lead">Líder<br /><strong>Brainiac</strong></span>
+          </article>
+
+          <article class="mission" data-status="planning">
+            <div class="mission__code">PKR<br />003</div>
+            <div class="mission__body">
+              <div class="mission__meta">
+                <span class="status status--planning">Planificación</span>
+                <span>Riesgo: absurdamente alto</span>
+              </div>
+              <h3>Proyecto Krypton</h3>
+              <p>
+                Clonar a Superman e infiltrarlo en la Liga. Prueba final:
+                engañar a Lois Lane durante diez minutos. Batman tardará menos.
+              </p>
+            </div>
+            <span class="mission__lead">Líder<br /><strong>Mystique</strong></span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section protocol-section" id="reglas">
+        <div class="protocol-copy">
+          <p class="eyebrow">Protocolo interno</p>
+          <h2>Reglas para no terminar en Arkham</h2>
+          <ol>
+            <li><span>01</span> Todo plan debe tener un plan de escape.</li>
+            <li><span>02</span> Nada llega a <code>main</code> sin revisión del Consejo.</li>
+            <li><span>03</span> Los códigos secretos jamás se suben al repositorio.</li>
+            <li><span>04</span> Los fracasos se documentan. Con capturas, si es posible.</li>
+            <li><span>05</span> No explicar el plan al héroe. Sí, Joker, hablamos contigo.</li>
+          </ol>
+        </div>
+
+        <div class="terminal" aria-label="Terminal de la Legión">
+          <div class="terminal__bar">
+            <span></span><span></span><span></span>
+            <p>brainiac@base-lunar</p>
+          </div>
+          <div class="terminal__body">
+            <p><span class="prompt">$</span> git status</p>
+            <p class="terminal__success">On branch conquistar-el-mundo</p>
+            <p>nothing to commit, working tree evil</p>
+            <br />
+            <p><span class="prompt">$</span> ./ejecutar-plan.sh</p>
+            <p>Validando plan de escape... <span class="terminal__success">OK</span></p>
+            <p>Buscando a Batman... <span class="terminal__danger">DEMASIADO TARDE</span></p>
+            <p class="terminal__cursor">_</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 Legión del Mal S.A. · Construido con HTML, CSS, JavaScript y malas intenciones.</p>
+      <p>Acceso no autorizado será castigado con una reunión de 4 horas con Lex Luthor.</p>
+    </footer>
+
+    <div class="alarm-overlay" id="alarmOverlay" aria-hidden="true">
+      <div>
+        <p>ALERTA DE SEGURIDAD</p>
+        <strong>¡BATMAN ESTÁ EN EL REPOSITORIO!</strong>
+        <button id="closeAlarmButton" type="button">Negar todo y cerrar</button>
+      </div>
+    </div>
+  </body>
+</html>
